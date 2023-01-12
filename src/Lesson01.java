@@ -74,3 +74,4 @@ public class Lesson01 {
         System.out.println("Возраст = " + age);
     }
 }
+
