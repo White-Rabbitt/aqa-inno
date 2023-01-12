@@ -1,6 +1,6 @@
 import java.time.Year;
 import java.util.Scanner;
-//123
+
 public class Lesson01 {
     public static void main(String[] args) {
         task01();
