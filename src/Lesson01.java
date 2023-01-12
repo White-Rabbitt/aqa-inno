@@ -1,5 +1,4 @@
 import java.time.Year;
-import java.util.Scanner;
 
 public class Lesson01 {
     public static void main(String[] args) {
@@ -16,13 +15,10 @@ public class Lesson01 {
         период? А месяцев? Выведите полученные значения в консоль.
         */
 
-        //System.out.println("Введите количество дней: ");
-        //int days = new Scanner(System.in).nextInt();
         int days = 234;
         int fullWeeks = 234 / 7;
         int fullMonth = 234 / 31;
-        System.out.println("Количество дней: " + days);
-        System.out.println("Количетсво полных недель = " + fullWeeks);
+        System.out.println("Количество полных недель = " + fullWeeks);
         System.out.println("Количество полных месяцев = " + fullMonth);
 
         System.out.println();
@@ -40,14 +36,11 @@ public class Lesson01 {
         Выведите все полученные значения в консоль
         */
 
-//        System.out.println("Введите двузначное число: ");
-//        int num = new Scanner(System.in).nextInt();
         int num = 57;
         int a = num / 10;
         int b = num % 10;
         int c = a + b;
         int d = a * b;
-        System.out.println("Введённое число: " + num);
         System.out.println("Число десятков = " + a);
         System.out.println("Число единиц = " + b);
         System.out.println("Сумма цифр = " + c);
@@ -65,12 +58,9 @@ public class Lesson01 {
         Выведите полученный результат в виде “Возраст = …”
         */
 
-//        System.out.println("Введите год рождения: ");
-//        int birthYear = new Scanner(System.in).nextInt();
         int birthYear = 1991;
         int year = Year.now().getValue();
         int age = year - birthYear;
-        System.out.println("Год рождения: " + birthYear);
         System.out.println("Возраст = " + age);
     }
 }
