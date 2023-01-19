@@ -12,7 +12,6 @@ public class Task02 {
         число. В результате программа должна вывести 4 строки с переведенными
         величинами.
          */
-
         System.out.println("Выберите, что переводить: \n[1] - масса \n[2] - расстояние");
         int parameter = new Scanner(System.in).nextInt();
 
