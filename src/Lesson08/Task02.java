@@ -108,5 +108,3 @@ public class Task02 {
         System.exit(1);
     }
 }
-
-
