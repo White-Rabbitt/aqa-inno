@@ -33,8 +33,4 @@ public class Task01 {
     public static void printText(String str) {
         System.out.println(str);
     }
-
 }
-
-
-
