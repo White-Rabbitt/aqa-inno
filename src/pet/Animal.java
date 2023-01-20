@@ -1,5 +1,6 @@
 package pet;
 
+
 public class Animal {
 
     String name;

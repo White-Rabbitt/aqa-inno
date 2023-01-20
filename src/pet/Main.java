@@ -1,5 +1,6 @@
 package pet;
 
+
 import java.util.Scanner;
 
 public class Main {
