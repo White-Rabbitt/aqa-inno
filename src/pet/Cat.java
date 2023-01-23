@@ -8,3 +8,4 @@ public class Cat extends Animal {
         System.out.println("Кошка пьёт воду");
     }
 }
+

@@ -10,4 +10,3 @@ public class Animal {
         return this.name;
     }
 }
-
